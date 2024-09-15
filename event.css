@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.bgcard{
+    position: relative;
+}
+
+.bg{
+    filter: brightness(0.5);
+    background-position: center;
+}
+
+.bgtext{
+    position: absolute;
+    top: 0px;
+    color: white;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.bgcard .name{
+    background: none;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 620px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+::placeholder{
+    color: azure;
+    opacity: 0.7;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#user{
+    margin-top: -590px;
+    margin-left: 565px;
+    position: absolute;
+    font-size: 30px;
+}
+
+.bgcard .mail{
+    background: none;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: -520px;
+    margin-left: 620px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.bgcard h4{
+    position: absolute;
+    margin-top: -590px;
+    margin-left: 438px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+
+#email{
+    margin-top: -510px;
+    margin-left: 565px;
+    position: absolute;
+    font-size: 30px;
+}
+
+.bgcard h5{
+    position: absolute;
+    margin-top: -515px;
+    margin-left: 480px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+
+.bgcard .password{
+    background: none;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: -440px;
+    margin-left: 620px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#lock{
+    margin-top: -430px;
+    margin-left: 565px;
+    position: absolute;
+    font-size: 30px;
+}
+
+
+.bgcard h6{
+    position: absolute;
+    margin-top: -435px;
+    margin-left: 440px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+.bgcard .password1{
+    background: none;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: -360px;
+    margin-left: 620px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#lock1{
+    margin-top: -350px;
+    margin-left: 565px;
+    position: absolute;
+    font-size: 30px;
+}
+
+.bgcard h3{
+    position: absolute;
+    margin-top: -355px;
+    margin-left: 330px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+
+.bgcard .btn{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 590px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* footer */
+footer {
+    background-image: url(https://www.linandjirsa.com/wp-content/uploads/19-montage-laguna-beach-orange-county-indian-wedding-reception-photography-1600x1066.jpg);
+  background-position: center;
+    color: white;
+    text-align: center;
+  }
+  .ft1{
+      background-color: #0000008f;
+      margin: 0px;
+      padding-top: 20px;
+  
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .footer-content p {
+    line-height: 1.6;
+  }
+  
+  .footer-section.social .social-links a {
+    margin: 0 10px;
+    font-size: 1.2em;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section.social .social-links a:hover {
+    color: #3498db;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    padding: 10px;
+    background-color: #222;
+  }
+  .text-center img{
+      width: 70%;
+  }
+  
+  .last p{
+      color: rgba(255, 255, 255, 0.69);
+  }
+
+  /* HOVER */
+  /* From Uiverse.io by WhiteNervosa */ 
+button {
+    font-size: 18px;
+    color: #fffffe;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  button:focus,
+  button:hover {
+    color: #ffc400;
+  }
+  
+  button:focus:after,
+  button:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
+  .number{
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+  }
+  .logo{
+    margin-left: 70px;
+  }

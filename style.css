@@ -1,0 +1,629 @@
+/* From Uiverse.io by aadium */ 
+.paste-button {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  /* HOVER */
+  /* From Uiverse.io by WhiteNervosa */ 
+button {
+    font-size: 18px;
+    color: #fffffe;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  button:focus,
+  button:hover {
+    color: #ffc400;
+  }
+  
+  button:focus:after,
+  button:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
+  .number{
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+  }
+.logo{
+  margin-left: 70px;
+}
+  body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.grandweddings.co.in/wp-content/uploads/2020/01/Wedding-Event.jpg");
+
+  /* Set a specific height */
+  height: 90%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text h1{
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 60px;
+}
+.hero-text h2{
+  font-family: "Cinzel", serif;
+  color: #fbca1f;
+}
+
+
+  /* From Uiverse.io by adamgiebl */ 
+.talk {
+  background: #fbca1f;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+  color: #000000;
+}
+
+.talk:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+  color: #000000;
+}
+
+.talk:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+
+/* From Uiverse.io by javierBarroso */ 
+.social-login-icons {
+  margin-left: 260px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  -webkit-box-reflect: below 5px linear-gradient(transparent, #00000055);
+}
+.social-login-icons svg {
+  width: 40px;
+}
+
+.social-icon-1,
+.social-icon-1-1,
+.social-icon-2,
+.social-icon-2-2,
+.social-icon-3,
+.social-icon-3-3,
+.social-icon-4,
+.social-icon-4-4 {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin: 20px 0 0px 0;
+}
+
+.icon svg {
+  fill: #ffffff;
+}
+
+.socialcontainer {
+  height: 80px;
+  overflow: hidden;
+}
+.social-icon-1 {
+  transition-duration: 0.4s;
+  background-color: rgb(0, 0, 0);
+  transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+}
+.social-icon-1 svg,
+.social-icon-2 svg,
+.social-icon-3 svg,
+.social-icon-4 svg {
+  opacity: 0;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+}
+.social-icon-1-1 {
+  transition-duration: 0.4s;
+  background-color: rgb(0, 0, 0, 0);
+}
+.socialcontainer:hover .social-icon-1 {
+  transform: translateY(-70px);
+}
+.socialcontainer:hover .social-icon-1 svg,
+.socialcontainer:hover .social-icon-2 svg,
+.socialcontainer:hover .social-icon-3 svg,
+.socialcontainer:hover .social-icon-4 svg {
+  opacity: 1;
+}
+.social-icon-2 {
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+  background: linear-gradient(
+    72.44deg,
+    #ff7a00 11.92%,
+    #ff0169 51.56%,
+    #d300c5 85.69%
+  );
+}
+.socialcontainer:hover .social-icon-2 {
+  transform: translateY(-70px);
+}
+.social-icon-3 {
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+  background: #316ff6;
+}
+
+.socialcontainer:hover .social-icon-3 {
+  transform: translateY(-70px);
+}
+.social-icon-4 {
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+
+  background: linear-gradient(
+    180deg,
+    rgba(129, 34, 144, 1) 0%,
+    rgba(77, 34, 124, 1) 91%
+  );
+}
+
+.socialcontainer:hover .social-icon-4 {
+  transform: translateY(-70px);
+}
+
+.subhead{
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px; 
+  font-size: 30px; 
+}
+.subhead-para{
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+   margin: 20px;
+}
+.video{
+  margin-top: 20px;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+   width: 100%;
+    margin: 0 auto;
+    background-color: #fff0f0;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-right: 20px;
+}
+
+.image-grid img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+.dream{
+  margin-left: 19px;
+}
+
+/* From Uiverse.io by e-coders */ 
+.expert {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 5px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 19px;
+ }
+ 
+ .expert span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+ }
+ 
+ .expert span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+ }
+ 
+ .expert:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+ }
+ 
+ .expert:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+ }
+ 
+ .expert:hover span:last-child {
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+ }
+
+
+ .form-section-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://tradebrains.in/wp-content/uploads/2020/02/Wedding-cost-in-India-Explained-Cover-Image-1080x675.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.text-container {
+  max-width: 600px;
+}
+
+.company-info p {
+  color: #ffe600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.text-container h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  font-family: "Dela Gothic One", sans-serif
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: "Cinzel", serif;
+  color: #fffefc;
+}
+
+.form-container {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+form input,
+form textarea {
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 18px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.service{
+  font-family: "Josefin Sans", sans-serif;
+  color: #4e2504;
+  text-align: center;
+  font-size: medium;
+}
+.melodia{
+  font-family: "Dela Gothic One", sans-serif;
+  text-align: center;
+  color: #000000;
+}
+.melodia-para{
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  text-align: center;
+  padding: 20px;
+}
+.card-title{
+  font-family: "Josefin Sans", sans-serif;
+}
+.card-text{
+  font-family: "Montserrat", sans-serif;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* From Uiverse.io by alexmaracinaru */ 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae7;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #b1dae7;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+.stories{
+  background-color: rgb(252, 227, 227);
+}
+
+.client{
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(248, 203, 0);
+  text-align: center;
+   padding-top: 90px;
+}
+.client-say{
+  font-family: "Dela Gothic One", sans-serif;
+  color: white;
+  text-align: center;
+}
+.excellent{
+  font-family: "SUSE", sans-serif;
+  color: white; text-align: center;
+}
+.checked{
+  color: yellow;
+}
+.google{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* From Uiverse.io by Yaya12085 */ 
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  max-width: 320px;
+}
+
+.stars {
+  display: flex;
+  grid-gap: 0.125rem;
+  gap: 0.125rem;
+  color: rgb(238, 203, 8);
+}
+
+.starss {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.infos {
+  margin-top: 1rem;
+}
+
+.date-time {
+  color: rgba(7, 63, 216, 1);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 0.4rem;
+  line-height: 1.625;
+  color: rgba(107, 114, 128, 1);
+}
+
+.author {
+  margin-top: 1.3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgba(107, 114, 128, 1);
+}
+.accordion-header h1{
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+.accordion-body {
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  text-align: justify;
+  background-color: rgb(250, 230, 224);
+  padding: 40px
+}
+.accordion{
+  padding: 50px;
+}
+
+
+
+/* footer */
+footer {
+  background-image: url(https://www.linandjirsa.com/wp-content/uploads/19-montage-laguna-beach-orange-county-indian-wedding-reception-photography-1600x1066.jpg);
+background-position: center;
+  color: white;
+  text-align: center;
+}
+.ft1{
+    background-color: #0000008f;
+    margin: 0px;
+    padding-top: 20px;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-content {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.footer-content h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.footer-content p {
+  line-height: 1.6;
+}
+
+.footer-section.social .social-links a {
+  margin: 0 10px;
+  font-size: 1.2em;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-section.social .social-links a:hover {
+  color: #3498db;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.footer-bottom p {
+  margin: 0;
+  padding: 10px;
+  background-color: #222;
+}
+.text-center img{
+    width: 70%;
+}
+
+.last p{
+    color: rgba(255, 255, 255, 0.69);
+}
